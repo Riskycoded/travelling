@@ -203,9 +203,9 @@ const First = () => {
 
         {/* CTA Section */}
         <div className="mt-16 text-center">
-          <button className="bg-black cursor-pointer hover:bg-blue-600 text-white px-8 py-4 rounded-full font-semibold text-lg shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300">
+          <a href="https://x.com/abroadachieve?s=21" target='blank' rel="noopener noreferrer"><button className="bg-black cursor-pointer hover:bg-blue-600 text-white px-8 py-4 rounded-full font-semibold text-lg shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300">
             Start Your Journey Today
-          </button>
+          </button></a>
         </div>
       </div>
     </div>
