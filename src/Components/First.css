@@ -1,0 +1,50 @@
+.universities-carousel {
+  display: flex;
+  gap: 2rem;
+  animation: slideLeft 30s linear infinite;
+  padding: 1rem 0;
+  width: max-content;
+}
+
+@keyframes slideLeft {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* Pause animation on hover */
+.universities-carousel:hover {
+  animation-play-state: paused;
+}
+
+/* Gradient fade effect - scoped only to carousel container */
+.universities-carousel-container {
+  position: relative;
+}
+
+.universities-carousel-container::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 100px;
+  background: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+  z-index: 10;
+  pointer-events: none;
+}
+
+.universities-carousel-container::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100px;
+  background: linear-gradient(to left, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+  z-index: 10;
+  pointer-events: none;
+}
