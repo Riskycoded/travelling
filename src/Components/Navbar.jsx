@@ -15,7 +15,7 @@ const Navbar = () => {
         {/* Logo */}
         <div className="flex items-center gap-2 z-50">
           <div className="w-8 h-8 rounded-lg flex items-center justify-center text-white text-xl">
-            <img src={ StudyAbroadd} alt="" />
+            <img src={ StudyAbroadd} alt="" loading="lazy" />
           </div>
           <span className="text-xl font-semibold text-gray-800">Eduvoyage</span>
         </div>

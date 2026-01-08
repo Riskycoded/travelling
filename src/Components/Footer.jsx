@@ -12,7 +12,7 @@ const Footer = () => {
           <div className="flex flex-col gap-5">
             <div className="flex items-center gap-3 mb-1">
               <div className="w-8 h-8  rounded-lg flex items-center justify-center text-white text-xl">
-                <img src={StudyAbroad} alt="Study Abroad" />
+                <img src={StudyAbroad} alt="Study Abroad" loading="lazy" />
               </div>
               <span className="text-2xl font-semibold text-gray-800">AbroadAchieve</span>
             </div>

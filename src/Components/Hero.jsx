@@ -24,7 +24,7 @@ const Hero = () => {
             
                 {/* Image */}
                 <div>
-    <img src={Study} alt="Study Abroad" className='hidden md:block lg:w-200 lg:h-100'/>
+    <img src={Study} alt="Study Abroad" loading="lazy" className='hidden md:block lg:w-200 lg:h-100'/>
 </div>
             </div>
         </section>

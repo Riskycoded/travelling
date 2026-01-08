@@ -29,28 +29,28 @@ const First = () => {
     {
       title: "Bachelor of Science Degrees",
       icon: (
-        <img src={bscImage} alt="BSc" className="w-full h-full object-cover" />
+        <img src={bscImage} alt="BSc" loading="lazy" className="w-full h-full object-cover" />
       ),
       description: "Launch your academic journey with comprehensive undergraduate programs designed for success."
     },
     {
       title: "Bachelor of Science Degrees Top Up",
       icon: (
-        <img src={bsctImage} alt="BSc Top Up" className="w-full h-full object-cover" />
+        <img src={bsctImage} alt="BSc Top Up" loading="lazy" className="w-full h-full object-cover" />
       ),
       description: "Complete your bachelor's degree with our specialized top-up programs for career advancement."
     },
     {
       title: "Masters of Science",
       icon: (
-        <img src={msImage} alt="MSc" className="w-full h-full object-cover" />
+        <img src={msImage} alt="MSc" loading="lazy" className="w-full h-full object-cover" />
       ),
       description: "Advance your expertise with postgraduate programs that open doors to leadership roles."
     },
     {
       title: "Master of Research",
       icon: (
-        <img src={research} alt="Research" className="w-full h-full object-cover" />
+        <img src={research} alt="Research" loading="lazy" className="w-full h-full object-cover" />
       ),
       description: "Develop advanced research skills and contribute to cutting-edge discoveries in your field."
     }
