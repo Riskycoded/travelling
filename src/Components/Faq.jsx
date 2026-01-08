@@ -91,9 +91,11 @@ const FAQ = () => {
 
         {/* Call to Action */}
         <div className="text-center mt-12">
-          <button className="px-8 py-4 bg-blue-600 text-white rounded-full font-semibold hover:bg-blue-700 cursor-pointer transition-colors duration-300 shadow-lg hover:shadow-xl">
+         <a href="https://wa.me/2348089953598?text=Hello%2C%20I%27d%20like%20to%20inquire%20about%20studying%20abroad" 
+              target="_blank" 
+              rel="noopener noreferrer"> <button className="px-8 py-4 bg-blue-600 text-white rounded-full font-semibold hover:bg-blue-700 cursor-pointer transition-colors duration-300 shadow-lg hover:shadow-xl">
             Get Started Today
-          </button>
+          </button></a>
         </div>
       </div>
     </div>
